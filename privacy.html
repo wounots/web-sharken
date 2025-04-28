@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Bảo Mật | SHARKEN ROLEPLAY</title>
+    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/QF3EcDI.png">
+    <meta name="description" content="Chính Sách Bảo Mật của SHARKEN ROLEPLAY - Trải nghiệm nhập vai FiveM chân thực nhất."/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#31b3f0',      // Thay đổi từ #31b3f0
+              secondary: '#4fc3f7',    // Màu sáng hơn
+              tertiary: '#0288d1',     // Màu tối hơn
+              dark: '#0f172a',
+              'dark-light': '#1e293b'
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body class="bg-dark text-white font-sans">
+    <!-- Navbar -->
+    <nav class="bg-[#1a1d24]/95 backdrop-blur-md shadow-lg fixed w-full z-10">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <div class="flex items-center">
+            <a href="index.html" class="text-2xl font-bold flex items-center gap-1">
+              <span class="text-[#31b3f0]">SHARKEN</span> <span class="text-white">ROLEPLAY</span>
+            </a>
+          </div>
+          <div class="hidden md:flex space-x-6">
+            <a href="index.html" class="text-white hover:text-[#31b3f0] transition duration-300">Trang Chủ</a>
+            <a href="about.html" class="text-white hover:text-[#31b3f0] transition duration-300">Giới Thiệu</a>
+            <a href="server.html" class="text-white hover:text-[#31b3f0] transition duration-300">Máy Chủ</a>
+            <a href="gallery.html" class="text-white hover:text-[#31b3f0] transition duration-300">Thư Viện</a>
+            <div class="relative group">
+              <button class="text-[#31b3f0] border-b-2 border-[#31b3f0] pb-1 transition duration-300 flex items-center gap-1">
+                Pháp Lý
+                <i class="fas fa-chevron-down text-xs transition-transform duration-300 group-hover:rotate-180"></i>
+              </button>
+              <div class="absolute left-0 mt-2 w-48 bg-[#1a1d24]/95 backdrop-blur-md rounded-lg shadow-xl py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                <a href="terms.html" class="block px-4 py-2 text-white hover:text-[#31b3f0] hover:bg-dark/50 transition duration-300 flex items-center gap-2">
+                  <i class="fas fa-file-contract text-xs"></i>
+                  Điều Khoản Dịch Vụ
+                </a>
+                <a href="privacy.html" class="block px-4 py-2 text-[#31b3f0] bg-dark/30 transition duration-300 flex items-center gap-2">
+                  <i class="fas fa-shield-alt text-xs"></i>
+                  Chính Sách Bảo Mật
+                </a>
+                <a href="rules.html" class="block px-4 py-2 text-white hover:text-[#31b3f0] hover:bg-dark/50 transition duration-300 flex items-center gap-2">
+                  <i class="fas fa-gavel text-xs"></i>
+                  Quy Định
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="md:hidden flex items-center">
+            <button id="mobile-menu-button" class="text-white hover:text-[#31b3f0] focus:outline-none p-2">
+              <i class="fas fa-bars text-xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden fixed inset-x-0 top-[73px] bg-[#1a1d24]/95 backdrop-blur-md transition-all duration-300 ease-in-out">
+        <div class="px-6 py-4 space-y-3">
+          <div class="text-2xl font-bold mb-6">
+            <span class="text-white">Chính Sách</span>
+            <span class="text-[#31b3f0]">Bảo Mật</span>
+          </div>
+          <p class="text-gray-400 text-sm mb-8">Cách chúng tôi xử lý dữ liệu của bạn</p>
+          
+          <!-- Navigation Links -->
+          <div class="space-y-3">
+            <a href="index.html" class="block text-lg text-white hover:text-[#31b3f0] transition duration-300">Trang Chủ</a>
+            <a href="about.html" class="block text-lg text-white hover:text-[#31b3f0] transition duration-300">Giới Thiệu</a>
+            <a href="server.html" class="block text-lg text-white hover:text-[#31b3f0] transition duration-300">Máy Chủ</a>
+            <a href="gallery.html" class="block text-lg text-white hover:text-[#31b3f0] transition duration-300">Thư Viện</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-dark-light">
+      <div class="absolute inset-0 overflow-hidden opacity-20">
+        <img src="https://forum.cfx.re/uploads/default/original/4X/7/5/e/75e7441dcd9f8a3a10cba5b43955edb414f87eb5.jpeg" alt="Background" class="w-full h-full object-cover">
+      </div>
+      <div class="container mx-auto px-4 relative z-10 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-up">Chính Sách <span class="text-primary">Bảo Mật</span></h1>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+          Cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn
+        </p>
+      </div>
+    </header>
+
+    <!-- Privacy Content -->
+    <section class="py-16 bg-dark">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-dark-light/50 backdrop-blur-sm p-8 rounded-xl shadow-xl space-y-8" data-aos="fade-up">
+            <!-- Introduction -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">1. Giới Thiệu</h2>
+              <p class="text-gray-300">Chính Sách Bảo Mật này giải thích cách SHARKEN ROLEPLAY thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn. Chúng tôi cam kết đảm bảo quyền riêng tư và bảo vệ dữ liệu bạn chia sẻ với chúng tôi.</p>
+            </div>
+
+            <!-- Information We Collect -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">2. Thông Tin Chúng Tôi Thu Thập</h2>
+              <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Thông tin tài khoản (tên người dùng, email)</li>
+                <li>Dữ liệu liên quan đến trò chơi (thời gian chơi, hành động trong trò chơi)</li>
+                <li>Thông tin Discord khi bạn tham gia máy chủ của chúng tôi</li>
+                <li>Địa chỉ IP và thông tin thiết bị</li>
+                <li>Hồ sơ liên lạc từ các yêu cầu hỗ trợ</li>
+              </ul>
+            </div>
+
+            <!-- How We Use Your Information -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">3. Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn</h2>
+              <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>Để cung cấp và duy trì dịch vụ của chúng tôi</li>
+                <li>Để cải thiện trải nghiệm người dùng</li>
+                <li>Để liên lạc với bạn về các cập nhật và thay đổi</li>
+                <li>Để thực thi các quy định và chính sách của chúng tôi</li>
+                <li>Để ngăn chặn gian lận và lạm dụng</li>
+              </ul>
+            </div>
+
+            <!-- Data Security -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">4. Bảo Mật Dữ Liệu</h2>
+              <p class="text-gray-300">Chúng tôi thực hiện các biện pháp bảo mật phù hợp để bảo vệ thông tin của bạn:</p>
+              <ul class="list-disc list-inside text-gray-300 space-y-2 mt-2">
+                <li>Mã hóa dữ liệu an toàn</li>
+                <li>Kiểm tra bảo mật thường xuyên</li>
+                <li>Hạn chế quyền truy cập của nhân viên vào dữ liệu cá nhân</li>
+                <li>Cơ sở hạ tầng máy chủ an toàn</li>
+              </ul>
+            </div>
+
+            <!-- Data Sharing -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">5. Chia Sẻ Dữ Liệu</h2>
+              <p class="text-gray-300">Chúng tôi không bán hoặc chia sẻ thông tin cá nhân của bạn với bên thứ ba ngoại trừ:</p>
+              <ul class="list-disc list-inside text-gray-300 space-y-2 mt-2">
+                <li>Khi được yêu cầu bởi pháp luật</li>
+                <li>Để bảo vệ quyền lợi và an toàn của chúng tôi</li>
+                <li>Với sự đồng ý rõ ràng của bạn</li>
+              </ul>
+            </div>
+
+            <!-- Your Rights -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">6. Quyền Của Bạn</h2>
+              <p class="text-gray-300">Bạn có quyền:</p>
+              <ul class="list-disc list-inside text-gray-300 space-y-2 mt-2">
+                <li>Truy cập dữ liệu cá nhân của bạn</li>
+                <li>Yêu cầu chỉnh sửa hoặc xóa dữ liệu</li>
+                <li>Từ chối nhận thông tin tiếp thị</li>
+                <li>Yêu cầu chuyển dữ liệu</li>
+              </ul>
+            </div>
+
+            <!-- Cookies -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">7. Cookies</h2>
+              <p class="text-gray-300">Chúng tôi sử dụng cookies để cải thiện trải nghiệm của bạn:</p>
+              <ul class="list-disc list-inside text-gray-300 space-y-2 mt-2">
+                <li>Cookies cần thiết cho chức năng của trang web</li>
+                <li>Cookies phân tích để hiểu cách sử dụng</li>
+                <li>Cookies ưu tiên để ghi nhớ cài đặt</li>
+              </ul>
+            </div>
+
+            <!-- Contact -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">8. Liên Hệ</h2>
+              <p class="text-gray-300">Nếu có câu hỏi hoặc thắc mắc liên quan đến quyền riêng tư, vui lòng liên hệ đội ngũ hỗ trợ của chúng tôi qua Discord hoặc biểu mẫu liên hệ.</p>
+            </div>
+
+            <!-- Last Updated -->
+            <div class="pt-8 border-t border-gray-700">
+              <p class="text-gray-400 text-sm">Cập nhật: Tháng 5 năm 2025</p>
+              
+              <!-- Copyright -->
+              <div class="mt-6 pt-2 text-center opacity-60 hover:opacity-100 transition-opacity duration-300 copyright-holder">
+                <a href="https://discord.gg/EmWkYDCqfZ" target="_blank" class="hover:no-underline cursor-pointer">
+                  <p class="text-xs text-gray-400 relative z-10 hover:scale-105 transition-transform duration-300 copyright-text">
+                    <span class="bg-gradient-to-r from-[#059669] via-[#31b3f0] to-[#34d399] bg-clip-text text-transparent font-semibold">Bản quyền bởi</span>
+                    <span class="text-white font-semibold tracking-wide"> sharkenstore</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-8">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <!-- Column 1 -->
+          <div>
+            <a href="index.html" class="text-2xl font-bold text-primary">SHARKEN<span class="text-white">ROLEPLAY</span></a>
+            <p class="mt-4 text-gray-400">Trải nghiệm máy chủ nhập vai FiveM chân thực nhất với các script tùy chỉnh, phương tiện và cộng đồng năng động.</p>
+          </div>
+          
+          <!-- Column 2 -->
+          <div>
+            <h4 class="text-white font-bold mb-4">Điều Hướng</h4>
+            <ul class="space-y-2">
+              <li><a href="index.html" class="text-gray-400 hover:text-primary transition duration-300">Trang Chủ</a></li>
+              <li><a href="about.html" class="text-gray-400 hover:text-primary transition duration-300">Giới Thiệu</a></li>
+              <li><a href="server.html" class="text-gray-400 hover:text-primary transition duration-300">Máy Chủ</a></li>
+              <li><a href="gallery.html" class="text-gray-400 hover:text-primary transition duration-300">Thư Viện</a></li>
+            </ul>
+          </div>
+          
+          <!-- Column 3 -->
+          <div>
+            <h4 class="text-white font-bold mb-4">Pháp Lý</h4>
+            <ul class="space-y-2">
+              <li><a href="terms.html" class="text-gray-400 hover:text-primary transition duration-300">Điều Khoản Dịch Vụ</a></li>
+              <li><a href="privacy.html" class="text-primary transition duration-300">Chính Sách Bảo Mật</a></li>
+              <li><a href="rules.html" class="text-gray-400 hover:text-primary transition duration-300">Quy Định</a></li>
+            </ul>
+          </div>
+          
+          <!-- Column 4 -->
+          <div>
+            <h4 class="text-white font-bold mb-4">Kết Nối</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
+                <i class="fab fa-discord text-xl"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
+                <i class="fab fa-youtube text-xl"></i>
+              </a>
+            </div>
+            <div class="mt-4">
+              <p class="text-gray-400">IP Máy Chủ:</p>
+              <div class="flex items-center mt-1">
+                <code class="text-[#31b3f0] text-sm">fivem://connect/53m5qd</code>
+                <button class="copy-ip-footer ml-2 text-gray-400 hover:text-[#31b3f0] transition duration-300 p-2 hover:bg-[#31b3f0]/5 rounded-lg group">
+                  <i class="fas fa-copy group-hover:scale-110 transition-transform duration-300"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <hr class="border-gray-800 my-6">
+        
+        <div class="text-center text-gray-500 text-sm">
+          <p>&copy; 2025 SHARKEN ROLEPLAY. Mọi quyền được bảo lưu.</p>
+          <p class="mt-2">Không liên kết với Rockstar Games, Inc. hoặc Take-Two Interactive Software, Inc.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
